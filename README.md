@@ -43,3 +43,13 @@ col_name1, col_name2, col_name3, col_name4, xyz_file_name  <br />
 0, 0, 0, 0, file3.xyz  <br />
 ... <br />
 end--------------------------------
+
+## Dockerization
+
+In order to run the dockerized version of the app:
+
+```
+docker-compose build
+docker-compose up
+# open http://127.0.0.1:8060/
+```
