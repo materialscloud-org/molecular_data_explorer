@@ -1,1 +1,1 @@
-web: gunicorn 'app:create_server()' 
+web: gunicorn app:create_server() --bind 0.0.0.0:80
