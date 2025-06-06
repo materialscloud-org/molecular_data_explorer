@@ -1,4 +1,3 @@
-# Use official Python 3.8 slim image (you can adjust version)
 FROM python:3.6.12-slim
 
 # Get build essentials and gcc
